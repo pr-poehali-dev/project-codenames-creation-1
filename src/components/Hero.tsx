@@ -25,13 +25,17 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="uppercase tracking-widest text-sm md:text-base opacity-70 mb-4">Яндекс Игры</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          АПГРЕЙД<br/>СКИНОВ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-xl mx-auto opacity-90 mb-10">
+          Испытай удачу — улучши скин на 10%, 50% или сразу на 70%!
         </p>
+        <button className="bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-bold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Играть бесплатно
+        </button>
       </div>
     </div>
   );
