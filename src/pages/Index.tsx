@@ -1,19 +1,7 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Featured from "@/components/Featured";
-import Promo from "@/components/Promo";
-import Footer from "@/components/Footer";
+import UpgraderGame from "@/components/UpgraderGame";
 
 const Index = () => {
-  return (
-    <main className="min-h-screen">
-      <Header />
-      <Hero />
-      <Featured />
-      <Promo />
-      <Footer />
-    </main>
-  );
+  return <UpgraderGame />;
 };
 
 export default Index;
